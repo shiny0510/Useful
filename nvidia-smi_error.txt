@@ -1,0 +1,11 @@
+sudo rmmod nvidia_drm, nvidia_modeset, nvidia_uvm, nvidia
+
+sudo lsof /dev/nvidia*
+
+lsmod | grep nvidia
+
+
+
+wget http://developer.download.nvidia.com/compute/cuda/repos/ubuntu1804/x86_64/nvidia-modprobe_455.45.01-0ubuntu1_amd64.deb
+
+sudo dpkg -i nvidia-modprobe_455.45.01-0ubuntu1_amd64.deb
