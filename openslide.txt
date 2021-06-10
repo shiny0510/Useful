@@ -1,0 +1,3 @@
+!sudo apt-get install openslide-tools
+!pip install openslide-python
+!sudo apt-get install python-openslide
