@@ -11,4 +11,6 @@
 6.fileName_transfer
 <br>
 7.colab_time_out
-https://ahnbk.com/?p=1261
+8.key https://ahnbk.com/?p=1261
+9.wheel 
+https://nscworld.net/2021/01/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%9A%B0%EB%B6%84%ED%88%AC-%EB%A7%88%EC%9A%B0%EC%8A%A4-%ED%9C%A0-%EC%86%8D%EB%8F%84-%ED%96%A5%EC%83%81/
