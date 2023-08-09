@@ -68,6 +68,8 @@ pip install scikit-learn==1.2.2
 conda install cudatoolkit=11.7 -c nvidia
 
 ===============================================================
+0. vi 설치
+sudo apt install vim
 
 1. SSH 연결 
 sudo apt-get update
@@ -105,17 +107,16 @@ cudnn 파일 업로드
 tar -xvf  cudnn-linux-x86_64-8.6.0.163_cuda11-archive.tar
 
 sudo cp include/cudnn* /usr/local/cuda/include
-sudo cp lib64/libcudnn* /usr/local/cuda/lib64
 sudo cp lib/libcudnn* /usr/local/cuda/lib64
 sudo chmod a+r /usr/local/cuda/include/cudnn.h /usr/local/cuda/lib64/libcudnn*
 
-sudo ln -sf /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8.6.0 /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_adv_train.so.8
-sudo ln -sf /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8.6.0  /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8
-sudo ln -sf /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8.6.0  /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8
-sudo ln -sf /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8.6.0  /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8
-sudo ln -sf /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.6.0  /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_ops_train.so.8
-sudo ln -sf /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8.6.0 /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8
-sudo ln -sf /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn.so.8.6.0 /usr/local/cuda-12.0/targets/x86_64-linux/lib/libcudnn.so.8
+sudo ln -sf /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_adv_train.so.8.6.0 /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_adv_train.so.8
+sudo ln -sf /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8.6.0  /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_ops_infer.so.8
+sudo ln -sf /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8.6.0  /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_cnn_train.so.8
+sudo ln -sf /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8.6.0  /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_adv_infer.so.8
+sudo ln -sf /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_ops_train.so.8.6.0  /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_ops_train.so.8
+sudo ln -sf /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8.6.0 /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn_cnn_infer.so.8
+sudo ln -sf /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn.so.8.6.0 /usr/local/cuda-11.8/targets/x86_64-linux/lib/libcudnn.so.8
 
 7. 아나콘다 설치
 wget https://repo.anaconda.com/archive/Anaconda3-2022.05-Linux-x86_64.sh
