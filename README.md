@@ -23,6 +23,9 @@ https://nscworld.net/2021/01/05/%EB%A6%AC%EB%88%85%EC%8A%A4-%EC%9A%B0%EB%B6%84%E
 10.nzxt
 </br>
 https://www.rlta.dev/tech/2020/03/09/liquidctl/
+
+sudo liquidctl --match kraken set external color fixed ff0000
+
 </br>
 11. ConeMu
 </br>
