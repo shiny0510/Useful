@@ -131,3 +131,35 @@ pip install tensorflow==2.12.0
 9. gpu 확인
 from tensorflow.python.client import device_lib
 device_lib.list_local_devices()
+
+
+==========================================================================================
+1) gui
+
+sudo apt update
+sudo apt install xubuntu-desktop
+
+sudo apt update
+sudo apt install xrdp
+sudo systemctl status xrdp
+
+sudo adduser xrdp ssl-cert
+
+sudo systemctl restart xrdp
+
+2) 검은화면
+
+sudo nano /etc/xrdp/startwm.sh
+
+=fi
+
+unset DBUS_SESSION_BUS_ADDRESS 
+unset XDG_RUNTIME_DIR 
+. $HOME/.profile
+
+= test -x 사이
+
+3)  login 먹통일때 - 화면보호기 lock시간 해제 후
+
+service xrdp restart
+
