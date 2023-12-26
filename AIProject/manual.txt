@@ -1,0 +1,17 @@
+main.ipynb: 코드를 다루는 메인 스크립트 (주피터파일)
+
+models: 모델스크립트를 담는 폴더
+ㄴ TTS.py: TTS모델 클래스가 정의된 스크립트
+ㄴ ImageGener.py: 이미지 생성모델 클래스가 정의된 스크립트
+
+train.py: 학습 시작코드
+infer.py: 학습된 모델을 불러와서 예측만 하는 코드
+
+requirements.txt: 설치모듈들 정리
+README.MD: 프로젝트 설명 스크립트
+
+webProject: 폴더. 웹관련 코드들이 있는 폴더
+ㄴapp.py:웹 메인 스크립트
+ㄴtemplates: 웹 디자인 스크립트들을 담는 폴더
+   ㄴview.html: 웹 디자인 스크립트
+
