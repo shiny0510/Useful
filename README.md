@@ -41,3 +41,12 @@ http://scalameta.org/metals-eclipse/update/
 
 14. spark-hadoop
 spark-3.1.2-bin-hadoop3.2
+
+
+
+
+15. 파이썬
+!apt-get install python3.8 python3.8-distutils
+!update-alternatives --install /usr/bin/python3 python3 /usr/bin/python3.8 1
+!apt-get install python3-pip
+!python3 -m pip install --upgrade pip --user
